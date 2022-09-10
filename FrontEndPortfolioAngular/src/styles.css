@@ -7,8 +7,8 @@
 *{
     color: whitesmoke;
     font-family: 'Jost';
-    font-style: normal;
-    
+    font-style:normal;
+    font-size: medium;
     line-height: 120.5%;
     margin: 0;
     padding: 0;
@@ -73,7 +73,7 @@
         
     }
     .custom-toggler .navbar-toggler-icon{
-        background-image:url("./src/avion.png");
+        background-image:url("./assets/src/avion.png");
         background-size: 100%;
         width: 4em;
         height: 4em;
@@ -150,12 +150,12 @@
             background:none;
         }
        
-    main{
+    body{
        
         width: 100%;
        
         overflow: hidden;
-        background-image: url("./src/estrellas1.gif");
+        background-image: url("./assets/src/estrellas1.gif");
         
        
        
