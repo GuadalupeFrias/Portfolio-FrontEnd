@@ -1,0 +1,76 @@
+footer{
+       margin: 0 auto;
+       background-color: black;
+   }
+
+.estilo_footer{
+    margin: calc(1rem + 1vw);
+}
+
+footer .nav_link {
+    font-size: 1.5em;
+   
+}
+.footerDatos{
+    margin: calc(0.1rem + 1vw);
+   color: white;
+   text-transform: uppercase;
+}
+
+.img_footer{
+    width: 40px;
+    height: 40px;
+  }
+.estilo_ulFooter{
+list-style: none;
+margin-top:  calc(1rem + 1vw);;
+}
+  .footer_link {
+    color:white;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.footer_link:active{
+    color: whitesmoke;
+    font-family:'Jost', sans-serif;
+    
+    font-style: normal;
+    text-decoration:none;
+    }
+
+.footer_link:hover{
+    color: #A0B482;
+    font-family:'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration:none;
+    
+}
+.footer_btn{
+    border-radius:10px;
+    outline:none;
+    padding: 0; border: none; background: none;
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    }
+
+    .footer_btn:active{
+        color: red;
+        font-family:'Jost', sans-serif;
+        
+        font-style: normal;
+        text-decoration:none;
+        text-transform: uppercase;
+        }
+    
+    .footer_btn:hover{
+        color:#A0B482;
+        font-family:'Jost', sans-serif;
+        font-weight: 400;
+    font-size: 20px;
+        font-style: normal;
+        text-transform: uppercase;
+        
+    }
