@@ -27,7 +27,7 @@
         font-size: 62,5%; 
         
     }
-    .bodyE{
+    .home{
         min-height: 100vh;
         min-height: -webkit-fill-available;
         font-size: 1.6rem;
@@ -73,7 +73,7 @@
         
     }
     .custom-toggler .navbar-toggler-icon{
-        background-image:url("./assets/src/avion.png");
+        background-image:url("./assets/src/menu.png");
         background-size: 100%;
         width: 4em;
         height: 4em;
@@ -153,25 +153,37 @@
     body{
        
         width: 100%;
-       
-        overflow: hidden;
         background-image: url("./assets/src/estrellas1.gif");
+       flex-direction: column;
+       
+       
+    }
+    .containerS{ display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: auto;
+        position: relative;
+    }
+
         
-       
-       
+    footer{
+        margin: 0 auto;
+        background-color: black;
     }
     
    section{
         width: auto;
-        margin: 5rem; 
+        margin-bottom: 5rem; 
        
     }
   
     
     .estilos1{
-        margin: 20rem;
+        margin: 5rem;
         margin-block-end: 10rem;
-       
+        position: absolute;
+        top: 40%;
+        transform: translate(0, -75%);
     }
    .datos_home{
     max-width: 100%;
