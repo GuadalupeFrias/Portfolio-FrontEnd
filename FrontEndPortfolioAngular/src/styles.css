@@ -23,7 +23,7 @@
 
     html{
         height: -webkit-fill-available;
-        box-sizing: border-box;
+        box-sizing: content-box;
         font-size: 62,5%; 
         
     }
@@ -151,8 +151,8 @@
         }
        
     body{
-       
-        width: 100%;
+      
+       width: 100%;
         background-image: url("./assets/src/estrellas1.gif");
        flex-direction: column;
        
@@ -164,8 +164,7 @@
         margin: auto;
         position: relative;
     }
-
-        
+   
     footer{
         margin: 0 auto;
         background-color: black;
@@ -248,6 +247,23 @@
 
     .estilo{
         margin-bottom: 3em;
+        
+    }
+    .cardColor {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background: none;
+        background-color: #e5ffbf66;
+        background-clip: border-box;
+        border-left: 1rem solid orange;
+        border-radius: 0.25rem;
+    }
+    .card-body1 {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
     }
     .icons{
         padding: 1.5em;
@@ -386,7 +402,7 @@
         }
         section{
             width: auto;
-            margin: 1rem; 
+           
            
         }
         .home{
@@ -419,6 +435,4 @@
      #edicionFormulario{
         display: block;
      }
-
-    
     
