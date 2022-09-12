@@ -182,8 +182,8 @@
         margin: 5rem;
         margin-block-end: 10rem;
         position: absolute;
-        top: 40%;
-        transform: translate(0, -75%);
+        top: 50%;
+        transform: translate(0%, -75%);
     }
    .datos_home{
     max-width: 100%;
