@@ -3,20 +3,20 @@
         <div class="row align-self-end ">
           
           <div class="col-5 container-md datos_home">
-            
+           
           
-         <p class="nombre" id="nombre">Guadalupe</p>
-         <p class="apellido" id="apellido">Frias </p>
+         <p  class="nombre" id="nombre">{{datosPorfolio.name}}</p>
+         <p class="apellido" id="apellido"> {{datosPorfolio.apellido}} </p>
           
           </div>
           <div class=" col-2"></div>
           <div class="col-5 container-md ">
             
-        <img id="imagenPerfil" src="./assets//src/gif.gif" alt="foro perfil">
+        <img id="imagenPerfil" [src]="datosPorfolio.img" alt="foro perfil">
         
         </div>
         <div class="col-12 justify-content-around universo">
-          <span >bienvenidos a nuestra galaxia</span>
+          <span >{{datosPorfolio.message}}</span>
           </div>
         </div>
       </div>

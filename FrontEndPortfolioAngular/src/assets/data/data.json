@@ -1,0 +1,70 @@
+{  "name":"Guadalupe",
+   "img":"./assets/src/gif.gif",
+   "nombre": "Guadalupe",
+   "apellido":"Frias",
+   "message":"bienvenidos a nuestra galaxia",
+    "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st",
+	"imgAbout":"./assets//src/githuv.png",
+
+
+    "education": [
+            {
+                "Institución": "Proyecto #1",
+                "Año": "Diciembre",
+                "Título": "2021"
+                
+            },
+            {
+                
+                "Institución": "Proyecto #2",
+                "Año": "Diciembre",
+                "Título": "2021"
+            }
+        ],
+    
+ 
+    "experience": [
+            {
+                "Institución": "Proyecto #1",
+                "Año": "Diciembre",
+                "Título": "2021"
+                
+            },
+            {
+                
+                "Institución": "Proyecto #2",
+                "Año": "Diciembre",
+                "Título": "2021"
+            }
+        ],
+
+ 
+        "proyects": [
+            {
+                "Institución": "Proyecto #1",
+                "Año": "Diciembre",
+                "Título": "2021"
+                
+            },
+            {
+                
+                "Institución": "Proyecto #2",
+                "Año": "Diciembre",
+                "Título": "2021"
+            }
+        ],
+
+        "skills": [
+            {
+                "Skill": "Proyecto #1",
+                "Percentage": "Diciembre"
+               
+                
+            },
+            {
+                "Skill": "Proyecto #1",
+                "Percentage": "Diciembre"
+            }
+        ]
+
+}
