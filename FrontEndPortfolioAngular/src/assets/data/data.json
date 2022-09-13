@@ -1,10 +1,14 @@
-{  "name":"Guadalupe",
+{  "logo": "./assets/src/APLogo-20-20 - copia.png",
+    "name":"Guadalupe",
    "img":"./assets/src/gif.gif",
    "nombre": "Guadalupe",
    "apellido":"Frias",
    "message":"bienvenidos a nuestra galaxia",
     "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st",
 	"imgAbout":"./assets//src/githuv.png",
+     "footerlogo1":"./assets/src/link.png",
+     "footerlogo2":"./assets/src/instagram.png",
+     "footerlogo3":"./assets/src/githuv.png",
 
 
     "education": [
