@@ -13,61 +13,61 @@
 
     "education": [
             {
-                "Institución": "Proyecto #1",
-                "Año": "Diciembre",
-                "Título": "2021"
+                "Institucion": "Proyecto #1",
+                "Anio": "Diciembre",
+                "Titulo": "2021"
                 
             },
             {
                 
-                "Institución": "Proyecto #2",
-                "Año": "Diciembre",
-                "Título": "2021"
+                "Institucion": "Proyecto #2",
+                "Anio": "Diciembre",
+                "Titulo": "2025"
             }
         ],
     
  
     "experience": [
             {
-                "Institución": "Proyecto #1",
-                "Año": "Diciembre",
-                "Título": "2021"
+                "Institucion": "Proyecto #1",
+                "Anio": "Diciembre",
+                "Titulo": "2021"
                 
             },
             {
                 
-                "Institución": "Proyecto #2",
-                "Año": "Diciembre",
-                "Título": "2021"
+                "Institucion": "Proyecto #2",
+                "Anio": "Diciembre",
+                "Titulo": "2021"
             }
         ],
 
  
         "proyects": [
             {
-                "Institución": "Proyecto #1",
-                "Año": "Diciembre",
-                "Título": "2021"
+                "Proyecto": "Proyecto #1",
+                "Anio": "Diciembre",
+                "Descripcion": "2021"
                 
             },
             {
+                "Proyecto": "Proyecto #2",
+                "Anio": "Diciembre",
+                "Descripcion": "2023"
                 
-                "Institución": "Proyecto #2",
-                "Año": "Diciembre",
-                "Título": "2021"
             }
         ],
 
         "skills": [
             {
                 "Skill": "Proyecto #1",
-                "Percentage": "Diciembre"
+                "Percentage": 20
                
                 
             },
             {
-                "Skill": "Proyecto #1",
-                "Percentage": "Diciembre"
+                "Skill": "Proyecto #2",
+                "Percentage": 75
             }
         ]
 

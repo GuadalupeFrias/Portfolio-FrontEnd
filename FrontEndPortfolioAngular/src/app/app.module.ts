@@ -11,6 +11,10 @@ import { EducationComponent } from './components/education/education.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
+import { EducationItemsComponent } from './components/items/education-items/education-items.component';
+import { ExperienceItemsComponent } from './components/items/experience-items/experience-items.component';
+import { ProyectsItemsComponent } from './components/items/proyects-items/proyects-items.component';
+import { SkillsItemsComponent } from './components/items/skills-items/skills-items.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { ProyectsComponent } from './components/proyects/proyects.component';
     EducationComponent,
     ExperienceComponent,
     SkillsComponent,
-    ProyectsComponent
+    ProyectsComponent,
+    EducationItemsComponent,
+    ExperienceItemsComponent,
+    ProyectsItemsComponent,
+    SkillsItemsComponent
   ],
   imports: [
     BrowserModule,

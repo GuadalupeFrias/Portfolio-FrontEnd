@@ -12,9 +12,9 @@ export interface Portfolio{
         
             education: 
                 {
-                    Institución: string;
-                    Año: number;
-                    Título:string;
+                    Institucion: string;
+                    Anio: number;
+                    Titulo:string;
                     
                 }
                
@@ -22,18 +22,18 @@ export interface Portfolio{
             
             experience: 
                 {
-                    Institución: string;
-                    Año: number;
-                    Título:string;
+                    Institucion: string;
+                    Anio: number;
+                    Titulo:string;
                     
                 }
             ,
             
             proyects: 
                 {
-                    Institución: string;
-                    Año: number;
-                    Título:string;
+                    Proyecto: string;
+                    Anio: number;
+                    Descripcion:string;
                     
                 }
             ,

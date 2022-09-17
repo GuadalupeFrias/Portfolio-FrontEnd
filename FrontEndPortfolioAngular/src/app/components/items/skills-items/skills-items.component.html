@@ -1,0 +1,22 @@
+<div *ngFor="let skills of Skills">
+<div class="row justify-content-around">
+        
+    <div class="col">
+      
+    
+    <span id="skill">{{skills.Skill}} </span>
+    <div class="circle-wrap">
+      <div class="circle">
+        <div class="mask full">
+          <div class="fill"></div>
+        </div>
+        <div class="mask half">
+          <div class="fill"></div>
+        </div>
+        <div class="inside-circle"> {{skills.Percentage}} </div>
+      </div>
+    </div>
+    </div>
+    
+  </div>
+</div>
