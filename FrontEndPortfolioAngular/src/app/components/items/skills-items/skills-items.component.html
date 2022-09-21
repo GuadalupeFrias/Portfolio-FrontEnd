@@ -2,24 +2,27 @@
  <div class="row justify-content-around" >
    
         
-  <div *ngFor="let skills of Skills"  class="col-4">
+  <div *ngFor="let skills of Skills"  class="col-5">
 
  
     
   
   <span id="skill">{{skills.Skill}} </span>
-  <div class="circle-wrap">
-    <div class="circle">
-      <div class="mask full">
-        <div class="fill"></div>
-      </div>
-      <div class="mask half">
-        <div class="fill"></div>
-      </div>
-      <div class="inside-circle"> {{skills.Percentage}} </div>
-    </div>
-  </div>
-  </div>
+  <circle-progress
+  [percent]= skills.Percentage
+  [radius]="90"
+  [outerStrokeWidth]="8"
+  [innerStrokeWidth]="5"
+  [outerStrokeColor]="'#cdcbd0'"
+  [innerStrokeColor]="'#A0B482'"
+  [animation]="true"
+  [animationDuration]="300"
+  [titleColor] = "'#cdcbd0'"
+></circle-progress>
+  
+  
+
+</div>
 
 
 </div>
